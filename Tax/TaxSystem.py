@@ -7,20 +7,21 @@ list_Of_Staff_Info = []
 
 def staff_Info():
     global staff_no
-    staff_no = int(input("Please enter the number of staff you wanted you provide data:"))
+    staff_no = int(input("Please enter the number of staff to be added: "))
     for i in range(staff_no):
         tempList = []
         flag = True
+        print("")
         print(f"Enter for the {i + 1} Staff Information ")
-        staff_Name = (input(f"Enter Staff Name [{i + 1}]"))
-        staff_Address = input(f"Enter Address [{i + 1}]")
-        staff_Pan = input(f"Enter Pan No [{i + 1}]")
-        fiscal_Year = input(f"Enter FY [{i + 1}]")
+        staff_Name = (input(f"Enter Staff Name [{i + 1}] : "))
+        staff_Address = input(f"Enter Address [{i + 1}] : ")
+        staff_Pan = input(f"Enter Pan No [{i + 1}] : ")
+        fiscal_Year = input(f"Enter FY [{i + 1}] : ")
         while flag:
-            married_Status = input(f"Enter ‘Y’ for Married and ‘N’ for Unmarried Status [{i + 1}]").upper()
+            married_Status = input(f"Enter ‘Y’ for Married and ‘N’ for Unmarried Status [{i + 1}] : ").upper()
             if married_Status == 'Y' or married_Status == 'N':
                 flag = False
-        staff_Income = int(input(f"Enter Staff per month income [Rs.] [{i + 1}]"))
+        staff_Income = int(input(f"Enter Staff per month income [Rs.] [{i + 1}] : "))
         tempList.append(staff_Name)
         tempList.append(staff_Address)
         tempList.append(staff_Pan)

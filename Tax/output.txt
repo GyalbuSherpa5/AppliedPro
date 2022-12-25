@@ -1,0 +1,21 @@
+
+            Sunway College Account Department
+                Maitidevi, Kathmandu
+                     Welcome to
+            Salary & Tax Calculate System(STCS)
+Staff Name: Don                        Address:sundarijal
+PAN No: 3392              FY:2075             Married Status=N
+
+Staff Don with PAN 3392 fall under 30% Tax slab 
+Don (PAN 3392) to pay tax to government is [Rs.]=154066.0
+              
+            Sunway College Account Department
+                Maitidevi, Kathmandu
+                     Welcome to
+            Salary & Tax Calculate System(STCS)
+Staff Name: Cena                        Address:us
+PAN No: 23              FY:1021             Married Status=Y
+
+Staff Cena with PAN 23 fall under 1% Tax slab 
+Cena (PAN 23) to pay tax to government is [Rs.]=1345.15
+    
