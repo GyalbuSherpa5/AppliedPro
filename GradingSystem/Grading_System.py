@@ -1,3 +1,6 @@
+# Develop a software for sunway college for calculating students grade using double list or single list
+# but the final output must be same as sunway college that you receive in previous semester
+
 from datetime import date
 
 stdName = input("Enter your name ")
