@@ -14,7 +14,7 @@ class Game:
     def __init__(self):
 
         self.window = Tk()
-        self.window.wm_title("I am don")
+        self.window.wm_title("Snake Game by Gyalbu Sherpa")
         self.window.geometry("600x600+400+100")
         self.window.bind("<KeyPress>", self.keypress)
         self.frame = Frame(self.window)
@@ -69,12 +69,13 @@ class Game:
 
     def food(self):
         color = [
-            "white", "gray", "black",
-            "pink", "blue", "purple",
-            "red", "violet", "yellow",
-            "yellow", "orange", "pink",
-            "#9900ff", "#cccc00", "#33bbff",
-            "#4d4d00", "#ff80b3", "#77b300"
+            "black","red"
+            # "white", "gray", "black",
+            # "pink", "blue", "purple",
+            # "red", "violet", "yellow",
+            # "yellow", "orange", "pink",
+            # "#9900ff", "#cccc00", "#33bbff",
+            # "#4d4d00", "#ff80b3", "#77b300"
         ]
         self.fruit = Frame(
             self.mapa, width=SIZE, height=SIZE, bg=choice(color)

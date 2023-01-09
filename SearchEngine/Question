@@ -1,0 +1,27 @@
+as a lead engineer in the company you have been tasked to creating a search engine that can query
+a database and return the number of matching results, as well as the number of matching words in the
+search input.
+The database is a file database with the following columns:
+Name, website, description, created Date, author, category, last updated date.
+
+to complete these task you will need to write a python program that does the following
+1.connect to the file database and retrieve the data
+2.accept a search input from the user
+3. search the file database for any rows that contains the search input in any of the columns
+4. return the total number of matching results
+5. return the total number of matching words in the search input.
+
+Sample data
+Name Website Description CreatedDate Author Category LastUdatedDate
+e-kantipur www.ekantipur.com.np this is the number one news portal  e-kantipur news
+
+a sample user interface for quering a database in the text format might look like this welcome to nepal search engine.
+Please enter your search query = news
+output
+searching database for news.....
+
+matching results =2
+matching words =4
+search results
+www.ekantipur.com
+www.goalnepal.com
