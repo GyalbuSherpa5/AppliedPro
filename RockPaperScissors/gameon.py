@@ -22,6 +22,6 @@ def play_game():
 playing = True
 while playing:
     play_game()
-    if not input("Play again? (y/n): ").lower() == "y":
+    if input("Play again? (y/n): ").lower() == "n":
         playing = False
 print("Thanks for playing!")
