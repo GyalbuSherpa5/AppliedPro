@@ -1,0 +1,18 @@
+1) Class class_type:
+2) def function_name():
+3) obj1 = class_type()
+4) obj1.function_name()
+
+eg:
+
+class Teacher:
+    def getSubject(self,[first parameter]):
+        print("Applied Pro")
+
+    def setSubject(self):
+        pass
+        
+
+don = Teacher()
+don.getSubject()
+
