@@ -1,0 +1,13 @@
+
+        Sunway College Bhatbhateni System
+              Maitidevi,Kathmandu    
+Customer Name: don
+Customer Address: jor
+Customer Email: e
+
+Item Name            Item Price   Item Quantity     Total Price
+1                             2               3               6
+d                            32               2              64
+
+Discount: 3.5
+Net Total: 66.5

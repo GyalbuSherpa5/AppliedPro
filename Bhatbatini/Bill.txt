@@ -1,0 +1,32 @@
+
+            Sunway College Bhatbhateni System
+                  Maitidevi,Kathmandu    
+    
+Customer Name : don
+Customer Address : us
+Customer Email : don@gmail.com
+
+Item Name            Item Price   Item Quantity     Total Price
+rara                         50               2             100
+bara                         30               5             150
+
+            
+Regular Price: 250
+Discount: 12.5
+Net Total: 237.5
+-----------------------------------------------------------------------------
+            Sunway College Bhatbhateni System
+                  Maitidevi,Kathmandu    
+    
+Customer Name : hero
+Customer Address : uk
+Customer Email : hero@gmail.com
+
+Item Name            Item Price   Item Quantity     Total Price
+mac                          50               5             250
+
+            
+Regular Price: 250
+Discount: 12.5
+Net Total: 237.5
+-----------------------------------------------------------------------------
